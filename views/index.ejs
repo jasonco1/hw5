@@ -1,0 +1,23 @@
+<%- include('partials/header.ejs') %>
+        
+        <div id="text">'
+        <br>
+        Zip Code: <input id="zipCode" type="text" placeholder="Enter Zip Code" name="zip">
+        <span id="zipError"></span>
+        <br><br>
+        
+        <div id ="weather">
+            Current Weather for: <span id="name"></span><br>
+            Description: <span id="description"></span><br>
+            Temperature: <span id="temp"></span><br>
+            Wind Speed: <span id="wind"></span><br>
+        </div>
+        <br>
+        <button id="chk-btn"class="btn btn-outline-success">Check Weather</button>
+        <button id="sve-btn"class="btn btn-outline-success">Save as Frequent</button>
+        <br><br> 
+        </div>
+        
+<%- include('partials/footer.ejs') %>
+    </body>
+</html>
